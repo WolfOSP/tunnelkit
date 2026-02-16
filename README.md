@@ -3,11 +3,24 @@
 ![tvOS 17+](https://img.shields.io/badge/tvos-17+-green.svg)
 [![License GPLv3](https://img.shields.io/badge/license-GPLv3-lightgray.svg)](LICENSE)
 
-[![Unit Tests](https://github.com/passepartoutvpn/tunnelkit/actions/workflows/test.yml/badge.svg)](https://github.com/passepartoutvpn/tunnelkit/actions/workflows/test.yml)
-[![Release](https://github.com/passepartoutvpn/tunnelkit/actions/workflows/release.yml/badge.svg)](https://github.com/passepartoutvpn/tunnelkit/actions/workflows/release.yml)
+# TunnelKit (OpenVPN-Only Fork)
 
-# TunnelKit
+This is a **maintained fork** of [TunnelKit](https://github.com/passepartoutvpn/tunnelkit) by [Davide De Rosa](https://github.com/keeshux).
 
+<<<<<<< HEAD
+=======
+## Modifications
+
+This version has been **modified to remove all WireGuard dependencies and functionality**, focusing exclusively on OpenVPN protocol support. Our team is actively developing and maintaining this OpenVPN-specific variant.
+
+**Changes made:**
+- Removed all WireGuard source modules (TunnelKitWireGuard, TunnelKitWireGuardAppExtension, TunnelKitWireGuardCore, TunnelKitWireGuardManager)
+- Removed WireGuard demo files and build schemes
+- Removed WireGuard dependencies from Package.swift
+- Updated documentation to reflect OpenVPN-only support
+- Updated Xcode project to remove WireGuard targets
+
+>>>>>>> 632e849 (docs: update README to reflect OpenVPN-only focus and remove WireGuard references)
 This library provides a generic framework for VPN development on Apple platforms.
 
 ## OpenVPN
@@ -140,7 +153,7 @@ for macOS.
 
 Download the library codebase locally:
 
-    $ git clone https://github.com/passepartoutvpn/tunnelkit.git
+    $ git clone https://github.com/WolfOSP/tunnelkit.git
 
 There are demo targets containing a simple app for testing the tunnels. Open `Demo/TunnelKit.xcodeproject` in Xcode and run it.
 
