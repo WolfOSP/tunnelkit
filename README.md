@@ -7,8 +7,6 @@
 
 This is a **maintained fork** of [TunnelKit](https://github.com/passepartoutvpn/tunnelkit) by [Davide De Rosa](https://github.com/keeshux).
 
-<<<<<<< HEAD
-=======
 ## Modifications
 
 This version has been **modified to remove all WireGuard dependencies and functionality**, focusing exclusively on OpenVPN protocol support. Our team is actively developing and maintaining this OpenVPN-specific variant.
@@ -20,7 +18,6 @@ This version has been **modified to remove all WireGuard dependencies and functi
 - Updated documentation to reflect OpenVPN-only support
 - Updated Xcode project to remove WireGuard targets
 
->>>>>>> 632e849 (docs: update README to reflect OpenVPN-only focus and remove WireGuard references)
 This library provides a generic framework for VPN development on Apple platforms.
 
 ## OpenVPN
